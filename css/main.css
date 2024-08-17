@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+}
+.nav{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+}
+.nav-par{
+    width: 90%;
+    margin: auto;
+}
+
+.nav-logo{
+    width: 20%;
+    float: left;
+}
+.nav-logo img{
+    width: 100%;
+}
+.nav-contant{
+    float: right;
+}
+.nav-contant li{
+    padding: 20px;
+float: left;
+list-style-type: none;
+}
+.nav-contant li a{
+color: white;
+text-decoration: none;
+}
+.icon{
+    position: fixed;
+    right: 0;
+    top: 200px;
+    width: 35px;
+    height: 70px;
+    border: solid 2px white;
+    border-radius: 3px;
+    background-color: white;
+}
+.icon .fa-solid{
+    position: relative;
+    right: 10px;
+    color: gray;
+}
+.home{  
+background-image: url("../img/drew-coffman-1872.jpg");
+background-size:cover;
+background-position: center center;
+height: 100vh;
+}
+.home-contant{
+    background-color: rgb(0, 0, 0,0.5);
+padding: 300px 300px 154px;
+color: white;
+text-align: center;
+font-size:x-large;
+
+
+}
+button{
+    color: white;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    transition:all 0.5s ;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+.b1{
+    border: #8E7754 solid 2px;
+    background-color: #8E7754;
+}
+.b2{
+    border: solid white 2px;
+    background-color: transparent;
+}
+.home-contant p ,.home-contant h1{
+    margin-bottom: 40px;
+}
+.about{
+width: 100%;
+ display: inline-block; 
+ padding: 60px 0;
+
+}
+.cover{
+    width: 80%;
+    margin: auto;
+}
+.about-contant{
+   width: 50%;
+   float: left;
+}
+.about-img{
+   width: 50%;
+   float: left;
+}
+.about-img img{
+    width: 65%;
+}
+
+.about-contant h2{
+    padding: 10px;
+}
+.about-contant p{
+    padding: 12px;
+}
+.about-contant li{
+    padding: 10px ;
+list-style-type: none;
+
+}
+.about2{
+background-color: rgb(228, 232, 237);
+display: inline-block;
+width: 100%;
+padding: 80px 0;
+}
+.cover3{
+width: 80%;
+margin: auto;
+}
+.about-contant2{
+ width: 50%;
+padding: 30px 0;
+float: left;
+}
+.about-img2{
+position: relative;
+left: 150px;
+width: 50%;
+float: right;
+}
+.about-img2 img{
+width: 65%;
+}
+.about-contant2 p{
+    padding-top: 10px;
+}
+
+.about3{
+
+    text-align: center;
+     display:inline-block; 
+    width: 100%;
+}
+.cover2 h2 ,.cover2 p{
+    padding: 20px;
+}
+.img3 h3 ,.img4 h3 ,.img5 h3 ,.img3 p ,.img4 p ,.img5 p{
+    padding: 20px;
+}
+
+
+.cover2{
+    width: 90%;
+    margin: auto;
+    padding-top: 60px ;
+}
+.img3 , .img4 , .img5 {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin: 50px;
+}
+.img3 img , .img4 img , .img5 img{
+    width: 100%;
+}
+.about4{
+display: inline-block;
+width: 100%;
+padding: 80px 0;
+background-color: rgb(228, 232, 237);
+}
+.cover4{
+width: 80%;
+margin: auto;
+}
+.about-contant4{
+width: 50%;
+float: left;
+padding-right: 20px;
+}
+.map{
+width: 40%;
+float: left;
+}
+.about-contant4 h2 , .about-contant4 p{
+    padding-bottom: 40px;
+}
+.about-contant4 li{
+list-style-type: none;
+padding-bottom: 40px;
+
+}
+.fa-solid{
+    color: #8E7754;
+    padding:10px 20px;
+    font-size: large;
+}
+.about5{
+    color: #969696;
+    font-size:medium;
+    height: 400px;
+    background-color:#403D38 ;
+    display: flex;
+    justify-content: space-around;
+
+}
+h4{
+    padding:22px 5px ;
+    color: white;
+}
+.p1 , .p2 ,.p3 , .p4{
+    width: 300px;
+    height: 330px;
+}
+.clear-fix{
+    clear: both;
+}
+.about5 p {
+    padding: 10px 0;
+}
+.about5 li{
+list-style-type: none;
+padding: 10px 0;
+border-bottom: #969696 1px solid;
+}
+.about5 .fa-solid{
+    color: #969696;
+}
+.last{
+    height: 300px;
+    background-color: #353330;
+}
+.last img{
+    position: relative;
+    left: 600px;
+    top: 80px;
+    width: 22%;
+}
+.icons{
+    width: 15%;
+    display: flex;
+    font-size: xx-large;
+    position: relative;
+    left: 630px;
+    top: 80px;
+    padding: 30px ;
+    justify-content: space-around;
+}
+a{
+color:#969696;
+text-decoration: none;
+
+}
+a.facebook:hover {
+
+    color: rgb(59, 109, 209);
+}
+a.google-plus:hover {
+
+    color: #DD4B39;
+}
+a.linkedin:hover {
+
+    color:#007BB5;
+}
+a.twitter:hover {
+
+    color: #00ACED;
+}
+
+
+
